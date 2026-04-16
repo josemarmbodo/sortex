@@ -1,0 +1,7 @@
+
+[threads-section]
+max_workers = 10
+
+[directories-section]
+sort_directory = '~/desktop/sortex/'
+exclude_directories = ['.git', '.venv', '__pycache__']
