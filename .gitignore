@@ -1,0 +1,7 @@
+.venv/**
+sortex.egg-info/**
+src/api/__pycache__/**
+src/cli/__pycache__/**
+src/defaults/__pycache__/**
+src/ext/__pycache__/**
+src/sort/__pycache__/**

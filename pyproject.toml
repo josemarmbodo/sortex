@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sortex"
+version = "2.1.1"
+
+[project.scripts]
+sortex = "src.cli:main"
+
+[tool.setuptools.packages.find]
+where = ['.']
+include = ["src", "src.*"]
